@@ -1,0 +1,9 @@
+[project]
+name = "store-fastapi"
+version = "0.1.0"
+description = "RESTful API con FastAPI para gestión de tienda online"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+]
