@@ -1,0 +1,15 @@
+meta {
+  name: get_tasks.bru
+  type: http
+  seq: 0
+}
+
+get {
+  url: {{base_url}}/tasks
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

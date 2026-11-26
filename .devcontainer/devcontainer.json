@@ -19,9 +19,10 @@
         "editor.formatOnSave": true
       },
       "extensions": [
-        "ms-python.python", // Soporte base de Python
-        "ms-python.vscode-pylance", // Autocompletado inteligente de tipos
-        "charliermarsh.ruff" // El linter/formateador más rápido actual, de los creadores de uv
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "bruno-api-client.bruno"
       ]
     }
   },
